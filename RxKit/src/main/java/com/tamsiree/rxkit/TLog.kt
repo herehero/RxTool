@@ -13,9 +13,9 @@ import java.util.*
  * @date 2016/1/24
  */
 object TLog {
-    private val LOG_FORMAT = SimpleDateFormat("yyyy年MM月dd日_HH点mm分ss秒") // 日志的输出格式
-    private val FILE_SUFFIX = SimpleDateFormat("HH点mm分ss秒") // 日志文件格式
-    private val FILE_DIR = SimpleDateFormat("yyyy年MM月dd日") // 日志文件格式
+    private val LOG_FORMAT = SimpleDateFormat("yyyy_MM_dd_HH_mm_ss") // 日志的输出格式
+    private val FILE_SUFFIX = SimpleDateFormat("HH_mm_ss") // 日志文件格式
+    private val FILE_DIR = SimpleDateFormat("yyyy_MM_dd") // 日志文件格式
 
     // 日志文件总开关
     private var LOG_SWITCH = true
